@@ -19,15 +19,12 @@
     "sort-packages": true
   },
   "require": {
-    "php": "^7.2 || ^8.0.0",
-    "ext-openssl": "*",
-    "ext-json": "*",
-    "nette/di": "^2.4.10 || ^3.0",
-    "nette/application": "^2.4.16 || ^v3.0.6",
-    "nette/utils": "^v2.5.3 || ^3.2 || ^4.0",
-    "latte/latte": "^3.0",
+    "nette/di": ">2.4.10,
+    "nette/application": ">2.4.16",
+    "nette/utils": ">2.5.3",
+    "latte/latte": ">3.0",
     "pixidos/gpwebpay-core": "~2.1",
-    "nette/bootstrap": "^3.1"
+    "nette/bootstrap": ">3.1"
   },
   "require-dev": {
     "nette/http": "^2.4.10 || ^3.0",
